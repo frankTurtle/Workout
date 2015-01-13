@@ -18,7 +18,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XWR-aW-7EM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="505.5" y="609"/>
+            <point key="canvasLocation" x="-808.5" y="493"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="SOs-wA-T4y">
@@ -37,56 +37,107 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="65"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="64" width="400" height="80"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSe-K6-kJR">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="aes-gE-gxG"/>
+                                </constraints>
                                 <state key="normal" image="Plus-80.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="152" width="400" height="80"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="aes-gE-gxG"/>
+                                    </mask>
                                 </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="aes-gE-gxG"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="UvQ-nA-xHU" kind="show" id="m5d-fd-9er"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ha-0U-fv8">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="weM-gY-dsT"/>
+                                </constraints>
                                 <state key="normal" image="Calendar-80.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="240" width="400" height="80"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="weM-gY-dsT"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="weM-gY-dsT"/>
+                                    </mask>
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dON-CV-ZHz">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="hkI-vE-oWj"/>
+                                </constraints>
                                 <state key="normal" image="Chart-80.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="328" width="400" height="80"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="hkI-vE-oWj"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="hkI-vE-oWj"/>
+                                    </mask>
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0l-oa-llr">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="Ew1-KF-n30"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <state key="normal" title="Progress">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Ew1-KF-n30"/>
+                                    </mask>
+                                </variation>
                                 <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="520" width="400" height="80"/>
+                                    <rect key="frame" x="0.0" y="516" width="400" height="84"/>
+                                    <mask key="constraints">
+                                        <include reference="Ew1-KF-n30"/>
+                                    </mask>
                                 </variation>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0w4-1y-6Pf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="Lzb-ip-dVD"/>
+                                </constraints>
                                 <state key="normal" image="Menu-80.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="416" width="400" height="80"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Lzb-ip-dVD"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Lzb-ip-dVD"/>
+                                    </mask>
                                 </variation>
                             </button>
                         </subviews>
@@ -117,16 +168,16 @@
                             <mask key="constraints">
                                 <exclude reference="94R-Qu-k6T"/>
                                 <exclude reference="zgA-2B-VA7"/>
-                                <exclude reference="Wiy-sF-Jvd"/>
-                                <exclude reference="gw2-dM-Qsi"/>
-                                <exclude reference="2vB-OT-FHi"/>
-                                <exclude reference="i5w-0X-XxP"/>
-                                <exclude reference="GBg-gL-wj3"/>
-                                <exclude reference="wwo-F0-U7r"/>
                                 <exclude reference="RZz-ra-6fa"/>
                                 <exclude reference="uqY-da-OEV"/>
+                                <exclude reference="2vB-OT-FHi"/>
+                                <exclude reference="i5w-0X-XxP"/>
                                 <exclude reference="Pak-Aa-2dt"/>
                                 <exclude reference="fuY-Rp-Hkd"/>
+                                <exclude reference="Wiy-sF-Jvd"/>
+                                <exclude reference="gw2-dM-Qsi"/>
+                                <exclude reference="GBg-gL-wj3"/>
+                                <exclude reference="wwo-F0-U7r"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -141,16 +192,16 @@
                             <mask key="constraints">
                                 <include reference="94R-Qu-k6T"/>
                                 <include reference="zgA-2B-VA7"/>
-                                <include reference="Wiy-sF-Jvd"/>
-                                <include reference="gw2-dM-Qsi"/>
-                                <include reference="2vB-OT-FHi"/>
-                                <include reference="i5w-0X-XxP"/>
-                                <include reference="GBg-gL-wj3"/>
-                                <include reference="wwo-F0-U7r"/>
                                 <include reference="RZz-ra-6fa"/>
                                 <include reference="uqY-da-OEV"/>
+                                <include reference="2vB-OT-FHi"/>
+                                <include reference="i5w-0X-XxP"/>
                                 <include reference="Pak-Aa-2dt"/>
                                 <include reference="fuY-Rp-Hkd"/>
+                                <include reference="Wiy-sF-Jvd"/>
+                                <include reference="gw2-dM-Qsi"/>
+                                <include reference="GBg-gL-wj3"/>
+                                <include reference="wwo-F0-U7r"/>
                             </mask>
                         </variation>
                     </view>
@@ -160,7 +211,56 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d6b-ro-jF6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1290" y="609"/>
+            <point key="canvasLocation" x="-24" y="493"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="5V4-Xh-Eq4">
+            <objects>
+                <viewController id="UvQ-nA-xHU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lsP-JV-Wr1"/>
+                        <viewControllerLayoutGuide type="bottom" id="6a1-dJ-W2z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zQ6-dG-JpP">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsE-fM-cLg">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="NsE-fM-cLg" secondAttribute="centerX" id="Hyu-pa-2bI"/>
+                            <constraint firstAttribute="centerY" secondItem="NsE-fM-cLg" secondAttribute="centerY" constant="220.5" id="mb6-yp-v92">
+                                <variation key="widthClass=compact" constant="220"/>
+                            </constraint>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="NsE-fM-cLg"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Hyu-pa-2bI"/>
+                                <exclude reference="mb6-yp-v92"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="NsE-fM-cLg"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Hyu-pa-2bI"/>
+                                <include reference="mb6-yp-v92"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Fh-bq-WPL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="801" y="-269"/>
         </scene>
     </scenes>
     <resources>
