@@ -29,44 +29,135 @@
                         <viewControllerLayoutGuide type="bottom" id="lJl-RU-WrU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="xPY-tc-4AO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFe-cs-xgY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workout" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFe-cs-xgY">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="80"/>
+                                </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSe-K6-kJR">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Plus-80.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="152" width="400" height="80"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ha-0U-fv8">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Calendar-80.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="240" width="400" height="80"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dON-CV-ZHz">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Chart-80.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="328" width="400" height="80"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0w4-1y-6Pf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Menu-80.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="416" width="400" height="80"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0l-oa-llr">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="520" width="400" height="80"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerY" secondItem="3Ha-0U-fv8" secondAttribute="centerY" constant="20" id="2vB-OT-FHi"/>
                             <constraint firstAttribute="centerX" secondItem="gFe-cs-xgY" secondAttribute="centerX" id="94R-Qu-k6T"/>
+                            <constraint firstAttribute="centerY" secondItem="dON-CV-ZHz" secondAttribute="centerY" constant="-68" id="GBg-gL-wj3"/>
+                            <constraint firstAttribute="centerY" secondItem="0w4-1y-6Pf" secondAttribute="centerY" constant="-156" id="RZz-ra-6fa"/>
+                            <constraint firstAttribute="centerY" secondItem="VSe-K6-kJR" secondAttribute="centerY" constant="108" id="Wiy-sF-Jvd"/>
+                            <constraint firstAttribute="centerX" secondItem="VSe-K6-kJR" secondAttribute="centerX" id="gw2-dM-Qsi"/>
+                            <constraint firstAttribute="centerX" secondItem="3Ha-0U-fv8" secondAttribute="centerX" id="i5w-0X-XxP"/>
+                            <constraint firstAttribute="centerX" secondItem="0w4-1y-6Pf" secondAttribute="centerX" id="uqY-da-OEV"/>
+                            <constraint firstAttribute="centerX" secondItem="dON-CV-ZHz" secondAttribute="centerX" id="wwo-F0-U7r"/>
                             <constraint firstAttribute="centerY" secondItem="gFe-cs-xgY" secondAttribute="centerY" constant="202.5" id="zgA-2B-VA7"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="gFe-cs-xgY"/>
+                                <exclude reference="VSe-K6-kJR"/>
+                                <exclude reference="3Ha-0U-fv8"/>
+                                <exclude reference="dON-CV-ZHz"/>
+                                <exclude reference="0w4-1y-6Pf"/>
+                                <exclude reference="E0l-oa-llr"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="94R-Qu-k6T"/>
                                 <exclude reference="zgA-2B-VA7"/>
+                                <exclude reference="Wiy-sF-Jvd"/>
+                                <exclude reference="gw2-dM-Qsi"/>
+                                <exclude reference="2vB-OT-FHi"/>
+                                <exclude reference="i5w-0X-XxP"/>
+                                <exclude reference="GBg-gL-wj3"/>
+                                <exclude reference="wwo-F0-U7r"/>
+                                <exclude reference="RZz-ra-6fa"/>
+                                <exclude reference="uqY-da-OEV"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="gFe-cs-xgY"/>
+                                <include reference="VSe-K6-kJR"/>
+                                <include reference="3Ha-0U-fv8"/>
+                                <include reference="dON-CV-ZHz"/>
+                                <include reference="0w4-1y-6Pf"/>
+                                <include reference="E0l-oa-llr"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="94R-Qu-k6T"/>
                                 <include reference="zgA-2B-VA7"/>
+                                <include reference="Wiy-sF-Jvd"/>
+                                <include reference="gw2-dM-Qsi"/>
+                                <include reference="2vB-OT-FHi"/>
+                                <include reference="i5w-0X-XxP"/>
+                                <include reference="GBg-gL-wj3"/>
+                                <include reference="wwo-F0-U7r"/>
+                                <include reference="RZz-ra-6fa"/>
+                                <include reference="uqY-da-OEV"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="3Ad-vf-MVh"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d6b-ro-jF6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1290" y="609"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Calendar-80.png" width="80" height="80"/>
+        <image name="Chart-80.png" width="80" height="80"/>
+        <image name="Menu-80.png" width="80" height="80"/>
+        <image name="Plus-80.png" width="80" height="80"/>
+    </resources>
 </document>
