@@ -114,8 +114,7 @@
                                         <exclude reference="Ew1-KF-n30"/>
                                     </mask>
                                 </variation>
-                                <variation key="widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="0.0" y="516" width="400" height="84"/>
+                                <variation key="widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="Ew1-KF-n30"/>
                                     </mask>
@@ -222,6 +221,7 @@
                         <viewControllerLayoutGuide type="bottom" id="6a1-dJ-W2z"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zQ6-dG-JpP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsE-fM-cLg">
