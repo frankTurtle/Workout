@@ -50,7 +50,7 @@
                                     <rect key="frame" x="0.0" y="152" width="400" height="80"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ha-0U-fv8">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ha-0U-fv8">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="Calendar-80.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -68,7 +68,19 @@
                                     <rect key="frame" x="0.0" y="328" width="400" height="80"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0w4-1y-6Pf">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0l-oa-llr">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <state key="normal" title="Progress">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="520" width="400" height="80"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0w4-1y-6Pf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="Menu-80.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -77,23 +89,16 @@
                                     <rect key="frame" x="0.0" y="416" width="400" height="80"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0l-oa-llr">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="520" width="400" height="80"/>
-                                </variation>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="3Ha-0U-fv8" secondAttribute="centerY" constant="20" id="2vB-OT-FHi"/>
                             <constraint firstAttribute="centerX" secondItem="gFe-cs-xgY" secondAttribute="centerX" id="94R-Qu-k6T"/>
                             <constraint firstAttribute="centerY" secondItem="dON-CV-ZHz" secondAttribute="centerY" constant="-68" id="GBg-gL-wj3"/>
+                            <constraint firstAttribute="centerY" secondItem="E0l-oa-llr" secondAttribute="centerY" constant="-260" id="Pak-Aa-2dt"/>
                             <constraint firstAttribute="centerY" secondItem="0w4-1y-6Pf" secondAttribute="centerY" constant="-156" id="RZz-ra-6fa"/>
                             <constraint firstAttribute="centerY" secondItem="VSe-K6-kJR" secondAttribute="centerY" constant="108" id="Wiy-sF-Jvd"/>
+                            <constraint firstAttribute="centerX" secondItem="E0l-oa-llr" secondAttribute="centerX" id="fuY-Rp-Hkd"/>
                             <constraint firstAttribute="centerX" secondItem="VSe-K6-kJR" secondAttribute="centerX" id="gw2-dM-Qsi"/>
                             <constraint firstAttribute="centerX" secondItem="3Ha-0U-fv8" secondAttribute="centerX" id="i5w-0X-XxP"/>
                             <constraint firstAttribute="centerX" secondItem="0w4-1y-6Pf" secondAttribute="centerX" id="uqY-da-OEV"/>
@@ -106,8 +111,8 @@
                                 <exclude reference="VSe-K6-kJR"/>
                                 <exclude reference="3Ha-0U-fv8"/>
                                 <exclude reference="dON-CV-ZHz"/>
-                                <exclude reference="0w4-1y-6Pf"/>
                                 <exclude reference="E0l-oa-llr"/>
+                                <exclude reference="0w4-1y-6Pf"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="94R-Qu-k6T"/>
@@ -120,6 +125,8 @@
                                 <exclude reference="wwo-F0-U7r"/>
                                 <exclude reference="RZz-ra-6fa"/>
                                 <exclude reference="uqY-da-OEV"/>
+                                <exclude reference="Pak-Aa-2dt"/>
+                                <exclude reference="fuY-Rp-Hkd"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -128,8 +135,8 @@
                                 <include reference="VSe-K6-kJR"/>
                                 <include reference="3Ha-0U-fv8"/>
                                 <include reference="dON-CV-ZHz"/>
-                                <include reference="0w4-1y-6Pf"/>
                                 <include reference="E0l-oa-llr"/>
+                                <include reference="0w4-1y-6Pf"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="94R-Qu-k6T"/>
@@ -142,6 +149,8 @@
                                 <include reference="wwo-F0-U7r"/>
                                 <include reference="RZz-ra-6fa"/>
                                 <include reference="uqY-da-OEV"/>
+                                <include reference="Pak-Aa-2dt"/>
+                                <include reference="fuY-Rp-Hkd"/>
                             </mask>
                         </variation>
                     </view>
