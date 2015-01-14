@@ -56,9 +56,6 @@
                                         <include reference="aes-gE-gxG"/>
                                     </mask>
                                 </variation>
-                                <connections>
-                                    <segue destination="UvQ-nA-xHU" kind="show" id="m5d-fd-9er"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ha-0U-fv8">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -211,56 +208,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d6b-ro-jF6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-24" y="493"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="5V4-Xh-Eq4">
-            <objects>
-                <viewController id="UvQ-nA-xHU" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="lsP-JV-Wr1"/>
-                        <viewControllerLayoutGuide type="bottom" id="6a1-dJ-W2z"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="zQ6-dG-JpP">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsE-fM-cLg">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="NsE-fM-cLg" secondAttribute="centerX" id="Hyu-pa-2bI"/>
-                            <constraint firstAttribute="centerY" secondItem="NsE-fM-cLg" secondAttribute="centerY" constant="220.5" id="mb6-yp-v92">
-                                <variation key="widthClass=compact" constant="220"/>
-                            </constraint>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="NsE-fM-cLg"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="Hyu-pa-2bI"/>
-                                <exclude reference="mb6-yp-v92"/>
-                            </mask>
-                        </variation>
-                        <variation key="widthClass=compact">
-                            <mask key="subviews">
-                                <include reference="NsE-fM-cLg"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="Hyu-pa-2bI"/>
-                                <include reference="mb6-yp-v92"/>
-                            </mask>
-                        </variation>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Fh-bq-WPL" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="801" y="-269"/>
         </scene>
     </scenes>
     <resources>
