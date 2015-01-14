@@ -17,6 +17,7 @@
 		526CADEC1A65A8F20052645A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526CADEB1A65A8F20052645A /* Images.xcassets */; };
 		526CADEF1A65A8F20052645A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526CADED1A65A8F20052645A /* LaunchScreen.xib */; };
 		526CADFB1A65A8F20052645A /* WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CADFA1A65A8F20052645A /* WorkoutTests.swift */; };
+		5285AE801A66D62400FA36F1 /* WorkoutPlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285AE7F1A66D62400FA36F1 /* WorkoutPlusViewController.swift */; };
 		52CCE9691A66D0120037FFE0 /* Log-Circle-150.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CCE9661A66D0120037FFE0 /* Log-Circle-150.png */; };
 		52CCE96A1A66D0120037FFE0 /* Minus-Circle-150.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CCE9671A66D0120037FFE0 /* Minus-Circle-150.png */; };
 		52CCE96B1A66D0120037FFE0 /* Plus-Circle-150.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CCE9681A66D0120037FFE0 /* Plus-Circle-150.png */; };
@@ -47,6 +48,7 @@
 		526CADF41A65A8F20052645A /* WorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		526CADF91A65A8F20052645A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526CADFA1A65A8F20052645A /* WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTests.swift; sourceTree = "<group>"; };
+		5285AE7F1A66D62400FA36F1 /* WorkoutPlusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutPlusViewController.swift; sourceTree = "<group>"; };
 		52CCE9661A66D0120037FFE0 /* Log-Circle-150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Log-Circle-150.png"; sourceTree = "<group>"; };
 		52CCE9671A66D0120037FFE0 /* Minus-Circle-150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Minus-Circle-150.png"; sourceTree = "<group>"; };
 		52CCE9681A66D0120037FFE0 /* Plus-Circle-150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus-Circle-150.png"; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				526CADE41A65A8F20052645A /* AppDelegate.swift */,
+				5285AE7F1A66D62400FA36F1 /* WorkoutPlusViewController.swift */,
 				526CADE61A65A8F20052645A /* ViewController.swift */,
 				526CADE81A65A8F20052645A /* Main.storyboard */,
 				526CADEB1A65A8F20052645A /* Images.xcassets */,
@@ -242,6 +245,7 @@
 			files = (
 				526CADE71A65A8F20052645A /* ViewController.swift in Sources */,
 				526CADE51A65A8F20052645A /* AppDelegate.swift in Sources */,
+				5285AE801A66D62400FA36F1 /* WorkoutPlusViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
