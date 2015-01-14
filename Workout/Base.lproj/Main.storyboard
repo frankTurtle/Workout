@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dgt-he-H5e">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -258,32 +259,17 @@
                                     <rect key="frame" x="258" y="263" width="97" height="30"/>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYD-V2-oTV">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBM-AL-QPJ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" image="Minus-Circle-150.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="68" y="401" width="46" height="30"/>
-                                </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBM-AL-QPJ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mft-cX-hAq">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" image="Log-Circle-150.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="285" y="401" width="46" height="30"/>
-                                </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mft-cX-hAq">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Button">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="177" y="497" width="46" height="30"/>
-                                </variation>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[#]" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULA-pu-OVg">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -339,15 +325,29 @@
                                     <rect key="frame" x="313" y="72" width="63" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYD-V2-oTV">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="Plus-Circle-150.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jYD-V2-oTV" firstAttribute="top" secondItem="E9R-LM-RCZ" secondAttribute="bottom" constant="269" id="5sD-in-U1c"/>
+                            <constraint firstItem="uBM-AL-QPJ" firstAttribute="trailing" secondItem="PXI-5M-eNN" secondAttribute="trailingMargin" id="CVZ-Eg-z3e"/>
+                            <constraint firstItem="5R8-bX-S3U" firstAttribute="top" secondItem="Mft-cX-hAq" secondAttribute="bottom" constant="8" id="DiK-8e-6XB"/>
+                            <constraint firstItem="jYD-V2-oTV" firstAttribute="leading" secondItem="PXI-5M-eNN" secondAttribute="leadingMargin" id="M7L-d7-r59"/>
+                            <constraint firstAttribute="centerY" secondItem="Mft-cX-hAq" secondAttribute="centerY" constant="-217" id="doD-Zo-mLm"/>
+                            <constraint firstAttribute="centerX" secondItem="Mft-cX-hAq" secondAttribute="centerX" id="qyl-Zx-L07"/>
+                            <constraint firstItem="uBM-AL-QPJ" firstAttribute="top" secondItem="E9R-LM-RCZ" secondAttribute="bottom" constant="269" id="tEn-Ym-eYW"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="9iM-q9-XWh"/>
                                 <exclude reference="ThV-Ld-N7E"/>
                                 <exclude reference="P07-Av-5yM"/>
                                 <exclude reference="q7n-hG-Z9F"/>
-                                <exclude reference="jYD-V2-oTV"/>
                                 <exclude reference="uBM-AL-QPJ"/>
                                 <exclude reference="Mft-cX-hAq"/>
                                 <exclude reference="ULA-pu-OVg"/>
@@ -356,6 +356,16 @@
                                 <exclude reference="C37-De-B67"/>
                                 <exclude reference="vtd-bm-cEb"/>
                                 <exclude reference="lVJ-2z-hyU"/>
+                                <exclude reference="jYD-V2-oTV"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="5sD-in-U1c"/>
+                                <exclude reference="M7L-d7-r59"/>
+                                <exclude reference="CVZ-Eg-z3e"/>
+                                <exclude reference="tEn-Ym-eYW"/>
+                                <exclude reference="doD-Zo-mLm"/>
+                                <exclude reference="qyl-Zx-L07"/>
+                                <exclude reference="DiK-8e-6XB"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -364,7 +374,6 @@
                                 <include reference="ThV-Ld-N7E"/>
                                 <include reference="P07-Av-5yM"/>
                                 <include reference="q7n-hG-Z9F"/>
-                                <include reference="jYD-V2-oTV"/>
                                 <include reference="uBM-AL-QPJ"/>
                                 <include reference="Mft-cX-hAq"/>
                                 <include reference="ULA-pu-OVg"/>
@@ -373,6 +382,16 @@
                                 <include reference="C37-De-B67"/>
                                 <include reference="vtd-bm-cEb"/>
                                 <include reference="lVJ-2z-hyU"/>
+                                <include reference="jYD-V2-oTV"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="5sD-in-U1c"/>
+                                <include reference="M7L-d7-r59"/>
+                                <include reference="CVZ-Eg-z3e"/>
+                                <include reference="tEn-Ym-eYW"/>
+                                <include reference="doD-Zo-mLm"/>
+                                <include reference="qyl-Zx-L07"/>
+                                <include reference="DiK-8e-6XB"/>
                             </mask>
                         </variation>
                     </view>
@@ -386,7 +405,10 @@
     <resources>
         <image name="Calendar-80.png" width="80" height="80"/>
         <image name="Chart-80.png" width="80" height="80"/>
+        <image name="Log-Circle-150.png" width="150" height="150"/>
         <image name="Menu-80.png" width="80" height="80"/>
+        <image name="Minus-Circle-150.png" width="150" height="150"/>
         <image name="Plus-80.png" width="80" height="80"/>
+        <image name="Plus-Circle-150.png" width="150" height="150"/>
     </resources>
 </document>

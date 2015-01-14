@@ -11,13 +11,15 @@
 		5237EE321A65B0D200C90942 /* Chart-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5237EE2D1A65B0D200C90942 /* Chart-80.png */; };
 		5237EE331A65B0D200C90942 /* Menu-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5237EE2E1A65B0D200C90942 /* Menu-80.png */; };
 		5237EE341A65B0D200C90942 /* Plus-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5237EE2F1A65B0D200C90942 /* Plus-80.png */; };
-		5237EE351A65B0D200C90942 /* Plus-Circle-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 5237EE301A65B0D200C90942 /* Plus-Circle-128.png */; };
 		526CADE51A65A8F20052645A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CADE41A65A8F20052645A /* AppDelegate.swift */; };
 		526CADE71A65A8F20052645A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CADE61A65A8F20052645A /* ViewController.swift */; };
 		526CADEA1A65A8F20052645A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526CADE81A65A8F20052645A /* Main.storyboard */; };
 		526CADEC1A65A8F20052645A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526CADEB1A65A8F20052645A /* Images.xcassets */; };
 		526CADEF1A65A8F20052645A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 526CADED1A65A8F20052645A /* LaunchScreen.xib */; };
 		526CADFB1A65A8F20052645A /* WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526CADFA1A65A8F20052645A /* WorkoutTests.swift */; };
+		52CCE9691A66D0120037FFE0 /* Log-Circle-150.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CCE9661A66D0120037FFE0 /* Log-Circle-150.png */; };
+		52CCE96A1A66D0120037FFE0 /* Minus-Circle-150.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CCE9671A66D0120037FFE0 /* Minus-Circle-150.png */; };
+		52CCE96B1A66D0120037FFE0 /* Plus-Circle-150.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CCE9681A66D0120037FFE0 /* Plus-Circle-150.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +37,6 @@
 		5237EE2D1A65B0D200C90942 /* Chart-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Chart-80.png"; sourceTree = "<group>"; };
 		5237EE2E1A65B0D200C90942 /* Menu-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu-80.png"; sourceTree = "<group>"; };
 		5237EE2F1A65B0D200C90942 /* Plus-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus-80.png"; sourceTree = "<group>"; };
-		5237EE301A65B0D200C90942 /* Plus-Circle-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus-Circle-128.png"; sourceTree = "<group>"; };
 		526CADDF1A65A8F20052645A /* Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526CADE31A65A8F20052645A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526CADE41A65A8F20052645A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +47,9 @@
 		526CADF41A65A8F20052645A /* WorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		526CADF91A65A8F20052645A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		526CADFA1A65A8F20052645A /* WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTests.swift; sourceTree = "<group>"; };
+		52CCE9661A66D0120037FFE0 /* Log-Circle-150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Log-Circle-150.png"; sourceTree = "<group>"; };
+		52CCE9671A66D0120037FFE0 /* Minus-Circle-150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Minus-Circle-150.png"; sourceTree = "<group>"; };
+		52CCE9681A66D0120037FFE0 /* Plus-Circle-150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Plus-Circle-150.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +95,13 @@
 				526CADE61A65A8F20052645A /* ViewController.swift */,
 				526CADE81A65A8F20052645A /* Main.storyboard */,
 				526CADEB1A65A8F20052645A /* Images.xcassets */,
+				52CCE9661A66D0120037FFE0 /* Log-Circle-150.png */,
+				52CCE9671A66D0120037FFE0 /* Minus-Circle-150.png */,
+				52CCE9681A66D0120037FFE0 /* Plus-Circle-150.png */,
 				5237EE2C1A65B0D200C90942 /* Calendar-80.png */,
 				5237EE2D1A65B0D200C90942 /* Chart-80.png */,
 				5237EE2E1A65B0D200C90942 /* Menu-80.png */,
 				5237EE2F1A65B0D200C90942 /* Plus-80.png */,
-				5237EE301A65B0D200C90942 /* Plus-Circle-128.png */,
 				526CADED1A65A8F20052645A /* LaunchScreen.xib */,
 				526CADE21A65A8F20052645A /* Supporting Files */,
 			);
@@ -207,14 +213,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CCE96B1A66D0120037FFE0 /* Plus-Circle-150.png in Resources */,
 				526CADEA1A65A8F20052645A /* Main.storyboard in Resources */,
-				5237EE351A65B0D200C90942 /* Plus-Circle-128.png in Resources */,
+				52CCE9691A66D0120037FFE0 /* Log-Circle-150.png in Resources */,
 				5237EE311A65B0D200C90942 /* Calendar-80.png in Resources */,
 				5237EE331A65B0D200C90942 /* Menu-80.png in Resources */,
 				5237EE341A65B0D200C90942 /* Plus-80.png in Resources */,
 				526CADEF1A65A8F20052645A /* LaunchScreen.xib in Resources */,
 				5237EE321A65B0D200C90942 /* Chart-80.png in Resources */,
 				526CADEC1A65A8F20052645A /* Images.xcassets in Resources */,
+				52CCE96A1A66D0120037FFE0 /* Minus-Circle-150.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
